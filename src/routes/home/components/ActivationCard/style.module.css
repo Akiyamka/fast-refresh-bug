@@ -1,0 +1,9 @@
+.card {
+  display: flex;
+}
+
+.card h2 {
+  font-family: 'Archivo', sans-serif;
+  color: var(--clr-gray-500);
+  font-size: var(--f-xxl);
+}

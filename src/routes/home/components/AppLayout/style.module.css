@@ -1,0 +1,55 @@
+.layout {
+  flex: 1;
+  position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+  min-height: 0;
+  padding-bottom: calc(var(--unit) * 2);
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.slots {
+  display: flex;
+  flex-flow: row nowrap;
+  min-height: 0;
+  pointer-events: none;
+  flex: 1;
+}
+
+.slot {
+  z-index: 0;
+  flex-basis: 50%;
+  display: flex;
+  flex-flow: column;
+  padding: var(--unit);
+  overflow: hidden;
+}
+
+.slot > * {
+  pointer-events: all;
+}
+
+.right {
+  align-items: flex-end;
+}
+
+.left {
+  align-items: flex-start;
+}
+
+.modal {
+  position: absolute;
+  top: var(--unit);
+  bottom: var(--unit);
+  right: 0;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}

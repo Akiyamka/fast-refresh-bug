@@ -1,0 +1,25 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  color: var(--clr-gray-400);
+  font-family: 'Archivo', sans-serif;
+  font-size: var(--f-x);
+}
+
+h1, h2, h3 {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  margin-top: 0;
+  margin-bottom: calc(var(--unit) * 2)
+}
+
+h1 {
+  font-size: var(--f-xxxl)
+}
+
+h2 {
+  font-size: var(--f-xxxl)
+}
+
+h3 {
+  font-size: var(--f-xxl)
+}

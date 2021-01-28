@@ -1,0 +1,22 @@
+:root {
+  --unit: 8px;
+  /* Colors */
+  --clr-main: #D73F3F;
+  --clr-main-dark: #6C2020;
+  --clr-main-light: #FFEDED;
+  --clr-second: #FFF;
+  --clr-attention: #FFC151;
+  --clr-success: #53AE62;
+  --clr-gray-500: #2C3038;
+  --clr-gray-400: #68707F;
+  --clr-gray-300: #929DB3;
+  --clr-gray-200: #E1E0E0;
+  --clr-gray-100: #F0EFEF;
+
+  /* Font-sizes */
+  --f-xxxl: 30px;
+  --f-xxl: 20px;
+  --f-xl: 16px;
+  --f-x: 14px;
+  --f-xs: 12px;
+}
